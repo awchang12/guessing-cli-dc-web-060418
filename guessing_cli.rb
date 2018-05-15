@@ -8,4 +8,4 @@ def run_guessing_game
     user_answer = gets.chomp
     computer_guess = rand(1..6)
     
-    if user_answer =
+    if user_answer == computer_guess.to_s
