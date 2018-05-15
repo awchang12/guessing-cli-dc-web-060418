@@ -9,4 +9,5 @@ def run_guessing_game
     computer_guess = rand(1..6)
     
     if user_answer == computer_guess.to_s
+      puts "You guess the correct number!"
       
