@@ -4,4 +4,4 @@ def run_guessing_game
   computer_guess = 0
   
   while user_answer != computer_guess
-  
+    puts ""
